@@ -1,8 +1,6 @@
-# Terminal_Code — Chat Inteligente (Python + $\color{#d97757}{\textsf{Claude}}$)
+# Terminal Code  - Python + $\color{#d97757}{\textsf{Claude}}$
 
 Assistente de chat em linha de comando que usa a API do $\color{#d97757}{\textsf{Claude}}$ (Anthropic) para conversar em português do Brasil, com interface colorida no terminal.
-
-> Projeto inspirado no [$\color{#d97757}{\textsf{Claude}}$ Code](https://claude.com/claude-code), o assistente oficial da Anthropic. Sou fã número 1!
 
 ## Funcionalidades
 
