@@ -6,7 +6,8 @@ Assistente de chat em linha de comando que usa a API do Google Gemini para respo
 
 - Conversa interativa direto no terminal
 - Respostas em português do Brasil, breves e diretas
-- Saída estilizada com cor laranja e mascote em ASCII
+- Interface estilizada com a biblioteca `rich` (cor laranja, centralização e mascote em ASCII)
+- Spinner "Pensando..." enquanto aguarda a resposta do modelo
 - Encerramento simples digitando `sair`
 
 ## Requisitos
@@ -19,7 +20,8 @@ Assistente de chat em linha de comando que usa a API do Google Gemini para respo
 1. Clone o repositório e entre na pasta do projeto:
 
    ```bash
-   cd chat.inteligente_py
+   git clone https://github.com/matheuseduardo04-dotcom/Terminal_Code.git
+   cd Terminal_Code
    ```
 
 2. (Opcional) Crie e ative um ambiente virtual:
@@ -32,7 +34,7 @@ Assistente de chat em linha de comando que usa a API do Google Gemini para respo
 3. Instale as dependências:
 
    ```bash
-   pip install python-dotenv google-genai
+   pip install python-dotenv google-genai rich
    ```
 
 ## Configuração
